@@ -3,5 +3,3 @@
 env.component="payment"
 python()
 
-
-
