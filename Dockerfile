@@ -7,4 +7,4 @@ COPY        payment.py .
 COPY        rabbitmq.py .
 RUN         pip3.6 install -r requirements.txt
 COPY        run.sh .
-ENTRYPOINT  [ "bash", "/run.sh" ]
+ENTRYPOINT  [ "bash", "run.sh" ]
